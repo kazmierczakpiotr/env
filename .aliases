@@ -1,0 +1,33 @@
+
+
+# navigation
+alias ...=../..
+alias ....=../../..
+alias .....=../../../..
+alias ......=../../../../..
+
+
+# utilities
+alias l='ls -lah'
+alias cl=clear
+
+# $PATH in a human redable form
+alias list-path=" tr ':' '\n' <<< "$PATH" "
+
+# list localhost:8080 usages
+alias list-8080-port-usages="sudo lsof -i tcp:8080"
+
+
+# nvim
+alias vi=nvim
+
+# GIT
+alias glola='git log --graph --pretty="%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset" --all'
+alias gs='git status'
+alias gcd='git checkout develop'
+
+# brew
+alias brews='brew list -1'
+
+
+
