@@ -26,6 +26,14 @@ alias glola='git log --graph --pretty="%Cred%h%Creset -%C(auto)%d%Creset %s %Cgr
 alias gs='git status'
 alias gcd='git checkout develop'
 
+# GIT
+# setting up Git Aliases 
+git config --global alias.last 'log -1 HEAD'
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.unstage 'reset HEAD --'
+
+
 # brew
 alias brews='brew list -1'
 
